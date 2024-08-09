@@ -1,0 +1,43 @@
+
+h1{
+    color: red;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+.not:hover{
+    text-decoration: underline;
+}
+span.del{
+    color:black;
+    font-size: 1rem;
+    cursor:pointer;
+}
+span.del:hover{
+    font-size:1.5rem;
+    color:red;
+}
+span.not{
+    font-size:1.5rem;
+    cursor:pointer;
+}
+.completed{
+    font-size:1.5rem;
+}
+form{
+    font-size:1.5rem;
+}
+form input{
+    color:black;
+    font-weight:bold;
+}
+a{
+    color:black;
+    margin-top:1rem;
+    font-size:1rem;
+}
+a:hover{
+    font-size:1.5rem;
+    color:red;
+}
