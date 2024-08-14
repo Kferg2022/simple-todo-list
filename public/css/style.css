@@ -1,6 +1,72 @@
 
+/* Signup Page */
+.signupPage {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+.signupButtons button{
+    border:1px solid black;
+    border-radius:10px;
+    width:6rem;
+    height:2rem;
+    margin:.5rem;
+}
+.signupButtons a{
+    text-decoration:none;
+    color:black;
+    border-radius:10px;
+    width:6rem;
+    height:2rem;
+}
+.signupButtons a:hover{
+    font-size:1.5rem;
+    
+}
+
+/* Login Page */
+
+.loginPage{
+    text-align:center;
+}
+
+.submitBtn{
+    border:1px solid black;
+    border-radius:10px;
+    width:6rem;
+    height:2rem;
+}
+.submitBtn:hover{
+    font-size:1.5rem;
+    
+}
+
+/* Signup Page */
+
+.signupInfo{
+    text-align:center;
+}
+
+/* Todo List */
+
+.todoListBody{
+    text-align:center;
+}
+.tasksLeft{
+    display:flex;
+    justify-content: center;
+}
+ol{
+    text-align: left;
+    padding:0;
+    
+}
+.logout{
+    margin-top:1rem;
+}
 h1{
     color: red;
+    font-size:2rem;
 }
 .completed{
     text-decoration: line-through;
@@ -31,13 +97,10 @@ form{
 form input{
     color:black;
     font-weight:bold;
+    padding:5px;
 }
 a{
     color:black;
     margin-top:1rem;
     font-size:1rem;
-}
-a:hover{
-    font-size:1.5rem;
-    color:red;
 }
